@@ -45,6 +45,10 @@ Table of Content:
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body {
   line-height: 27px;
   font-size: 14px;
